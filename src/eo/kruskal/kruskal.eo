@@ -1,13 +1,15 @@
 +spdx SPDX-FileCopyrightText: Copyright (c) 2024-2026 Yegor Bugayenko
 +spdx SPDX-License-Identifier: MIT
-+alias org.eolang.io.stdout
-+alias org.eolang.txt.sprintf
-+alias org.eolang.txt.sscanf
-+alias org.eolang.structs.set
-+alias org.eolang.structs.list
++home https://github.com/objectionary/eo-graphs
++package org.eolang.graphs
++alias stdout org.eolang.io.stdout
++alias sprintf org.eolang.txt.sprintf
++alias sscanf org.eolang.txt.sscanf
++alias set org.eolang.structs.set
++alias list org.eolang.structs.list
 
 # Kruskal algorithm application.
-[args] > kruskalApp
+[args] > kruskal
   graph args > edges
   algo edges (genNodes args).size > result
   printResult edges result > @

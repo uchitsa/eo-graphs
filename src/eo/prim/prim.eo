@@ -1,7 +1,7 @@
 +spdx SPDX-FileCopyrightText: Copyright (c) 2024-2026 Yegor Bugayenko
 +spdx SPDX-License-Identifier: MIT
-+alias org.eolang.io.stdout
-+alias org.eolang.txt.sprintf
++alias stdout org.eolang.io.stdout
++alias sprintf org.eolang.txt.sprintf
 +alias org.eolang.txt.sscanf
 +alias org.eolang.structs.set
 +alias org.eolang.structs.list
